@@ -5,22 +5,16 @@
 :root {
   --foreground-rgb: 0, 0, 0;
   --gradient-start: #030142;
-  --gradient-end: #00000C;
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-          to bottom,
-          transparent,
-          rgb(var(--gradient-end))
-  )
-  rgb(var(--gradient-start));
+  --gradient-end: #00000c;
 }
 
 @layer utilities {
   .bg-gradient-diagonal {
-    background-image: linear-gradient(to bottom right, var(--gradient-start), var(--gradient-end));
+    background-image: linear-gradient(
+      to bottom right,
+      var(--gradient-start),
+      var(--gradient-end)
+    );
     background-size: cover; /* Ensure background covers the entire element */
     background-repeat: no-repeat; /* Prevent background from repeating */
   }

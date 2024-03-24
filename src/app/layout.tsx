@@ -16,7 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`bg-gradient-diagonal h-screen text-gray-50 ${inter.className}`}>{children}</body>
+      <body
+        className={`bg-gradient-diagonal h-screen text-gray-50 ${inter.className}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

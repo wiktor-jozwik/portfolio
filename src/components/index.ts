@@ -1,5 +1,4 @@
-import About from './About'
+import About from './About';
+import Footer from './footer/Footer';
 
-export {
-    About
-}
+export { About, Footer };
