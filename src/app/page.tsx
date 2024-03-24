@@ -1,10 +1,10 @@
-import { About, Footer } from '@/components';
+import {About, Footer, Navigation} from '@/components';
 
 export default function Home() {
   return (
     <main className='flex flex-col items-center justify-center w-full'>
-      {/* Navigation */}
-      <About />
+        <Navigation />
+      {/*<About />*/}
       {/* Experience */}
       {/* Projects */}
       {/* Hobbies */}
