@@ -7,7 +7,7 @@ interface NavLinkProps {
 }
 const NavLink = ({ href, name, separator = true }: NavLinkProps) => {
   return (
-    <div className='flex flex-row space-x-3 text-[10px] md:text-xs'>
+    <div className='flex flex-row space-x-3 text-xs'>
       <Link href={href} passHref legacyBehavior className='hover:text-primary'>
         <a className='hover:text-primary'>{name}</a>
       </Link>

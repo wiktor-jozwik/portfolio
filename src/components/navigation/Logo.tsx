@@ -1,7 +1,17 @@
 import React from 'react';
+import Image from 'next/image'
+
+import logo from '../../../public/logo-512x512.png';
+
+
 const Logo = () => {
   return (
-    <div className='pl-8 text-xl sm:text-2xl md:text-3xl'>wiktorjozwik.com</div>
+      <Image
+          src={logo}
+          width={64}
+          height={64}
+          alt="wiktorjozwik.com"
+      />
   );
 };
 
