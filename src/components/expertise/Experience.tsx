@@ -8,7 +8,7 @@ const Experience = () => {
         <h1 className='text-xl lg:text-3xl'>EXPERIENCE</h1>
       </div>
 
-      <div className='w-4/5 xl:ml-16 space-y-14 pt-8'>
+      <div className='w-4/5 lg:ml-4 space-y-14 pt-8'>
         {EXPERIENCE_DATA.map((expData) => (
           <ExpertiseCard
             key={expData.title}
