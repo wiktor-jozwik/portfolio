@@ -2,7 +2,7 @@ import React from 'react';
 import NavLink from '@/components/navigation/NavLink';
 const NavBar = () => {
   return (
-    <div className='flex flex-row space-x-3 text-sm'>
+    <div className='flex flex-row space-x-3'>
       <NavLink href={'#about'} name={'ABOUT'} />
       <NavLink href={'#experience'} name={'EXPERIENCE'} />
       <NavLink href={'#projects'} name={'PROJECTS'} />

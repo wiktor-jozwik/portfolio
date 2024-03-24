@@ -1,7 +1,7 @@
 import React from 'react';
 const Summary = () => {
   return (
-    <div className='space-y-1 w-4/5'>
+    <div className='w-4/5'>
       <p className='text-xs'>Hi, my name is</p>
       <h1 className='text-2xl pb-4'>Wiktor Jóźwik</h1>
       <p className='text-xs'>I am a</p>
