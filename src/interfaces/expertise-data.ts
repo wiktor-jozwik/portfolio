@@ -1,3 +1,5 @@
+import { Skill } from '@/enums';
+
 interface ExpertiseData {
   startDate: Date;
   endDate: Date | null;
@@ -7,6 +9,6 @@ interface ExpertiseData {
 }
 
 export interface ExperienceData extends ExpertiseData {
-  skills: string[];
+  skills: Skill[];
 }
 export interface EducationData extends ExpertiseData {}
