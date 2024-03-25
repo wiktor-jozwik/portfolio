@@ -15,6 +15,11 @@
   position: absolute;
 }
 
+.nav-place {
+  position: absolute;
+  top: -2rem;
+}
+
 @layer utilities {
   .bg-gradient-diagonal {
     background-image: linear-gradient(
