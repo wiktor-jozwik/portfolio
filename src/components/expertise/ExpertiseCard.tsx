@@ -17,15 +17,13 @@ const ExpertiseCard = (props: ExpertiseCardProps) => {
       <div className='bg-gray-50 w-0.5 mr-5 ml-5'></div>
 
       <div className='flex-1'>
-        <div>
-          <div className='text-xl text-primary-text'>{title}</div>
-          <div className='pb-5 text-gray-400'>{subtitle}</div>
-          <div className='text-base'>{description}</div>
-          <div className='flex flex-row mt-5 flex-wrap'>
-            {skills?.map((skill) => (
-              <Skill name={skill} key={skill} />
-            ))}
-          </div>
+        <div className='text-xl text-primary-text'>{title}</div>
+        <div className='pb-5 text-gray-400'>{subtitle}</div>
+        <div className='text-base text-justify'>{description}</div>
+        <div className='flex flex-row mt-5 flex-wrap'>
+          {skills?.map((skill) => (
+            <Skill name={skill} key={skill} />
+          ))}
         </div>
       </div>
     </div>

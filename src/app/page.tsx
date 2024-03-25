@@ -1,4 +1,4 @@
-import { About, Footer, Navigation, Expertise } from '@/components';
+import { About, Footer, Navigation, Expertise, Projects } from '@/components';
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
 
       <About />
       <Expertise />
-      {/* Projects */}
+      <Projects />
       {/* Hobbies */}
       <Footer />
     </main>
