@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <div className='flex flex-row space-x-3'>
       <NavLink href={'#about'} name={'ABOUT'} />
-      <NavLink href={'#experience'} name={'EXPERIENCE'} />
+      <NavLink href={'#expertise'} name={'EXPERTISE'} />
       <NavLink href={'#projects'} name={'PROJECTS'} />
       <NavLink href={'#hobbies'} name={'HOBBIES'} />
       <NavLink href={'#footer'} name={'CONTACT'} separator={false} />
