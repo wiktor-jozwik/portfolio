@@ -5,9 +5,9 @@ import { Header } from '@/components/shared';
 const Projects = () => {
   return (
     <div>
-      <div id='projects' className='relative -top-8'></div>
+      <div className='flex flex-col items-center mt-16'>
+        <div id='projects' className='relative -top-8'></div>
 
-      <div className='flex flex-col items-center'>
         <Header name='PROJECTS' />
         <h2 className='text-md lg:text-base pt-5 w-3/5 text-center'>
           As a backend developer I&apos;ll show you the essence -{' '}

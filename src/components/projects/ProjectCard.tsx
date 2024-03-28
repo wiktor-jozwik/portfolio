@@ -10,7 +10,7 @@ const ProjectCard = ({ name, description, projectLinks }: ProjectCardProps) => {
         <h3 className='text-xl text-primary-text mb-2'>{name}</h3>
         <p className='text-md text-justify'>{description}</p>
       </div>
-      <div className='flex flex-row md:flex-col space-x-5 mt-2 md:space-x-0 pt-2 md:w-2/12 md:space-y-3 md:justify-center text-xs'>
+      <div className='flex flex-row md:flex-col space-x-5 mt-2 md:space-x-0 pt-2 md:w-1/12 md:space-y-3 text-center text-xs'>
         {projectLinks.map((projectLink) => (
           <CustomLink
             key={projectLink.name}

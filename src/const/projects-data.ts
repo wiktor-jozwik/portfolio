@@ -27,4 +27,15 @@ export const PROJECTS_DATA: ProjectData[] = [
       },
     ],
   },
+  {
+    name: 'Portfolio',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing dignissim et vitae augue. Lorem ipsum dolor sit amet, consectetur adipiscing dignissim et vitae augue. Vivamus venenatis nibh et metus tincidunt, non maximus risus facilisis. Nulla id tempor tortor. Ut lacinia malesuada tortor at venenatist vitae augue. Lorem ipsum dolor sit amet, consectetur adipiscing dignissim et vitae augue. Vivamus venenatis nibh et metus tincidunt, non maximus risus facilisis. Nulla id tempor tortor. Ut lacinia malesuada tortor at venenatist vitae augue. Lorem ipsum dolor sit amet, consectetur adipiscing dignissim et vitae augue. Vivamus venenatis nibh et metus tincidunt.',
+    projectLinks: [
+      {
+        name: 'GIT LINK',
+        href: 'https://github.com/wiktor-jozwik/portfolio',
+      },
+    ],
+  },
 ];

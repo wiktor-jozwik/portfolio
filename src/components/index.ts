@@ -3,5 +3,6 @@ import Footer from './footer/Footer';
 import Navigation from './navigation/Navigation';
 import Expertise from './expertise/Expertise';
 import Projects from './projects/Projects';
+import Hobbies from './hobbies/Hobbies';
 
-export { About, Footer, Navigation, Expertise, Projects };
+export { About, Footer, Navigation, Expertise, Projects, Hobbies };
