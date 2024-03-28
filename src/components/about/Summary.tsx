@@ -3,10 +3,10 @@ const Summary = () => {
   return (
     <div className='w-4/5'>
       <p className='text-xs'>Hi, my name is</p>
-      <h1 className='text-2xl pb-4 text-primary-text'>Wiktor Jóźwik</h1>
+      <h1 className='text-xl pb-4 text-primary-text'>WIKTOR JÓŹWIK</h1>
       <p className='text-xs'>I am a</p>
-      <h1 className='text-2xl pb-8 text-primary-text'>
-        Software backend engineer
+      <h1 className='text-xl pb-8 text-primary-text'>
+        SOFTWARE BACKEND ENGINEER
       </h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing dignissim et vitae

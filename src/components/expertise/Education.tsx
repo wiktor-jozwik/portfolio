@@ -1,14 +1,13 @@
 import React from 'react';
 import ExpertiseCard from '@/components/expertise/ExpertiseCard';
 import { EDUCATION_DATA } from '@/const';
+import { Header } from '@/components/shared';
 const Education = () => {
   return (
     <div className='flex flex-col items-center justify-center'>
-      <div className='flex justify-center items-center'>
-        <h1 className='text-xl lg:text-2xl'>EDUCATION</h1>
-      </div>
+      <Header name='EDUCATION' />
 
-      <div className='w-4/5 xl:ml-16 space-y-14 pt-8'>
+      <div className='w-4/5 space-y-14 pt-8'>
         {EDUCATION_DATA.map((expData) => (
           <ExpertiseCard
             key={expData.title}

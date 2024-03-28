@@ -1,6 +1,6 @@
 import React from 'react';
 import { ProjectData } from '@/interfaces';
-import CustomLink from '@/components/shared/Link';
+import { CustomLink } from '@/components/shared';
 
 interface ProjectCardProps extends ProjectData {}
 const ProjectCard = ({ name, description, projectLinks }: ProjectCardProps) => {
