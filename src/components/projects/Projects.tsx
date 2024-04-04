@@ -13,7 +13,7 @@ const Projects = () => {
           As a backend developer I&apos;ll show you the essence -{' '}
           <span className='text-primary-text'>THE CODE</span>
         </h2>
-        <div className='flex flex-col space-y-12 w-4/5 lg:w-3/5 text-justify relative pt-10'>
+        <div className='flex flex-col space-y-12 w-4/5 xl:w-3/5 text-justify relative pt-10'>
           {PROJECTS_DATA.map((project) => (
             <ProjectCard
               key={project.name}
