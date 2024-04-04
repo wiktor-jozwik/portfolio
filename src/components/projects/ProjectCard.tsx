@@ -8,7 +8,9 @@ const ProjectCard = ({ name, description, projectLinks }: ProjectCardProps) => {
     <div className='flex flex-col md:flex-row justify-center items-center mt-5 md:space-x-10'>
       <div className='flex flex-col md:w-10/12'>
         <h3 className='text-xl text-primary-text mb-2'>{name}</h3>
-        <p className='text-md text-justify whitespace-pre-wrap'>{description}</p>
+        <p className='text-md text-justify whitespace-pre-wrap'>
+          {description}
+        </p>
       </div>
       <div className='flex flex-row md:flex-col space-x-5 mt-2 md:space-x-0 pt-2 md:w-1/12 md:space-y-3 text-center text-xs'>
         {projectLinks.map((projectLink) => (
