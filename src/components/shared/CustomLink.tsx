@@ -8,7 +8,9 @@ interface CustomLinkProps {
 const CustomLink = ({ href, name }: CustomLinkProps) => {
   return (
     <Link href={href} passHref legacyBehavior className='hover:text-primary'>
-      <a className='hover:text-primary'>{name}</a>
+      <a target='_blank' className='hover:text-primary'>
+        {name}
+      </a>
     </Link>
   );
 };
