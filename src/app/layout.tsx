@@ -7,7 +7,8 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: "Wiktor Jóźwik's portfolio",
-  description: 'wiktorjozwik.com portfolio',
+  description:
+    'I am Wiktor Jóźwik, a Backend Software Engineer specializing in Node.js, NestJS, and TypeScript. I transform business ideas into efficient code.',
 };
 
 export default function RootLayout({
