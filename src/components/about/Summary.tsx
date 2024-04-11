@@ -9,12 +9,12 @@ const Summary = () => {
         SOFTWARE BACKEND ENGINEER
       </h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing dignissim et vitae
-        augue. Vivamus venenatis nibh et metus tincidunt, non maximus risus
-        facilisis. Nulla id tempor tortor. Ut lacinia malesuada tortor at
-        venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing dignissim
-        et vitae augue. Vivamus venenatis nibh et metus tincidunt, non maximus
-        risus facilisis.
+        In the realm of Node.js, NestJS, and TypeScript, I specialize in
+        crafting efficient code from business ideas. I like to be part of
+        business modelling and architecture planning of the system I&apos;m
+        working on. I love to write as clean code as possible but I understand
+        the most important thing is to deliver the code and meet the business
+        needs.
       </p>
     </div>
   );
